@@ -1,0 +1,296 @@
+project:
+  species: Hemiscorpius acanthocercus
+  study_area: Iran
+  seed: 2026
+paths:
+  raw:
+    root: ../environmental-inputs
+    wc_monthly: Historical_monthly_weather_data_2.5_minutes
+    wc21_normals: Historical_climate_data_2.5_minutes
+    wc21_bio: WorldClim_Bioclimatic_variables_for_WorldClim_version 2
+    cmip6: Future_climate_2.5_minutes_spatial_resolution
+    terraclimate: terraclimate
+    chirps: chirps
+    osm: osm
+    static: static
+  static_files:
+    boundary: gadm41_IRN_0.shp
+    provinces: gadm41_IRN_1.shp
+    countries: ne_10m_admin_0_countries.shp
+    ecoregions: Biomes_and_Ecoregions_2017.shp
+    occurrences: HemiscorpiusAcanthocercus_47Record.csv
+  processed: data_processed
+  results: results
+  maxent_jar: maxent/maxent.jar
+  rscript: Rscript
+software:
+  python: 3.12.2
+  r: 4.5.1
+  dismo: 1.3.16
+  maxent: 3.4.4
+  java: 10.0.2
+  arcgis_pro_note: slope and aspect computed at 30 m, geodesic method
+grid:
+  crs: EPSG:4326
+  cell_deg: 0.041666666666666664
+  bbox:
+    west: 43.5
+    east: 64.0
+    south: 24.5
+    north: 40.5
+  nodata: -9999
+  dtype: float32
+baselines:
+  WC_1970_1999:
+    product: worldclim_monthly
+    start: 1970
+    end: 1999
+  WC_2000_2024:
+    product: worldclim_monthly
+    start: 2000
+    end: 2024
+  TC_1970_1999:
+    product: terraclimate
+    start: 1970
+    end: 1999
+  TC_2000_2024:
+    product: terraclimate
+    start: 2000
+    end: 2024
+reference_normals:
+  product: worldclim21_normals
+  period: 1970-2000
+precip_cleaning:
+  min_mm: 200
+  factor: 10
+  offset_mm: 5
+analysis_versions:
+  main: original
+  sensitivity: cleaned
+future:
+  period: 2041-2060
+  interpolation_period: 2021-2040
+  ssps:
+  - ssp245
+  - ssp585
+  gcms:
+  - BCC-CSM2-MR
+  - EC-Earth3-Veg
+  - IPSL-CM6A-LR
+  - MIROC6
+  - MRI-ESM2-0
+  delta:
+    main_method: present
+    sensitivity_methods:
+    - anchor1970
+    temperature: additive
+    precipitation: ratio
+    precip_offset_mm: 1
+    precip_ratio_cap: 3
+    precip_ratio_cap_sensitivity: 5
+    cap_trigger_share: 0.01
+predictors:
+  candidates:
+    bioclim:
+    - bio1
+    - bio2
+    - bio3
+    - bio4
+    - bio5
+    - bio6
+    - bio7
+    - bio8
+    - bio9
+    - bio10
+    - bio11
+    - bio12
+    - bio13
+    - bio14
+    - bio15
+    - bio16
+    - bio17
+    - bio18
+    - bio19
+    terrain:
+    - elevation
+    - slope
+    - northness
+    - eastness
+    - vrm
+    soil:
+    - sand
+    - clay
+    - soc
+    - phh2o
+    - bdod
+    - cfvo
+  previous_final_set:
+  - bio3
+  - bio4
+  - bio8
+  - bio12
+  - clay
+  - slope
+  static_aggregation: mean
+  vrm_window: 3
+  terrain_block_rows: 2
+  screening:
+    method: priority_spearman_then_vif
+    a_priori_excluded:
+    - bio8
+    - bio9
+    - bio18
+    - bio19
+    spearman_abs_r: 0.7
+    vif_max: 10
+    max_predictors: 8
+    evaluated_on: background_main
+    rule_across_baselines: largest |r| / VIF over the four baselines (original data)
+    priority_list:
+    - bio6
+    - bio5
+    - bio12
+    - slope
+    - cfvo
+    - bio4
+    - bio3
+    - clay
+    - bio2
+    - bio15
+    - bio14
+    - bio17
+    - bio1
+    - bio11
+    - bio10
+    - bio7
+    - bio13
+    - bio16
+    - sand
+    - phh2o
+    - soc
+    - bdod
+    - elevation
+    - vrm
+    - northness
+    - eastness
+occurrences:
+  n_raw_records: 48
+  n_unique_localities: 47
+  thinning_km: 10
+  thinning_sensitivity_km:
+  - 5
+  - 20
+  thinning_reps: 100
+accessible_area:
+  main_method: ecoregion_within_distance
+  main_restriction_km: 200
+  buffer_km: 100
+  sensitivity:
+  - ecoregion
+  - buffer
+  - national
+  records_used: all_47_localities
+sampling_bias:
+  roads_file: gis_osm_roads_free_1.shp
+  places_file: gis_osm_places_free_1.shp
+  road_classes:
+  - motorway
+  - motorway_link
+  - trunk
+  - trunk_link
+  - primary
+  - primary_link
+  - secondary
+  - secondary_link
+  - tertiary
+  - tertiary_link
+  - unclassified
+  - residential
+  - living_street
+  - service
+  - track
+  - track_grade1
+  - track_grade2
+  - track_grade3
+  - track_grade4
+  - track_grade5
+  place_classes:
+  - national_capital
+  - city
+  - town
+  - village
+  - hamlet
+  - suburb
+  n_test_points: 20000
+  subpoints_per_side: 4
+  sigma_floor_km: 0.1
+  n_background: 10000
+background:
+  n_points: 10000
+  one_per_cell: true
+  exclude_occurrence_cells: false
+maxent:
+  output_format: cloglog
+  regularization:
+  - 0.5
+  - 1.0
+  - 1.5
+  - 2.0
+  - 2.5
+  - 3.0
+  - 4.0
+  - 5.0
+  - 6.0
+  - 8.0
+  - 10.0
+models:
+  feature_classes:
+  - L
+  - LQ
+  - H
+  - LQH
+  - LQHP
+  - LQHPT
+  validation: block_4fold
+  selection_rule: min OR10 -> max validation AUC -> fewest parameters
+  n_null: 100
+  n_replicates: 30
+  n_jobs: 4
+  java: java
+  memory_mb: 1024
+  run_sensitivity: false
+  variants:
+    main:
+      occurrences: thin10km
+      M: main
+      predictors: selected
+      version: original
+    M_ecoregion:
+      M: ecoregion
+    M_buffer100km:
+      M: buffer100km
+    M_national:
+      M: national
+    occ_thin05km:
+      occurrences: thin05km
+    occ_thin20km:
+      occurrences: thin20km
+    occ_onepercell:
+      occurrences: onepercell
+    predictors_original:
+      predictors: original
+    climate_cleaned:
+      version: cleaned
+    bias_corrected:
+      M: main_biascorr
+thresholds:
+- p10
+- mtp
+- maxsss
+comparison:
+  equivalence_margin_auc: 0.05
+  n_bootstrap: 1000
+  change_threshold: 0.05
+  area_interval_method: percentile
+  area_confidence_level: 0.95
+  minimum_inferential_replicates: 200
