@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+workflow/data_processed/
+workflow/results/
+workflow/maxent/
+environmental-inputs/
+analysis/fits/
+analysis/generated/
+analysis/C2000.png
