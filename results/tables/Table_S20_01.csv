@@ -1,0 +1,4 @@
+﻿Feature,Records median km,M median km,Records ≤0.5 km %,M ≤0.5 km %,Records ≤1 km %,M ≤1 km %
+road,0.165,2.378,78.7,15.9,89.4,27.0
+settlement,1.059,5.007,17.0,1.4,48.9,5.4
+access,0.165,2.353,78.7,16.0,89.4,27.2

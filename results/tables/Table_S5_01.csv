@@ -1,0 +1,36 @@
+﻿Diagnostic,Dataset,Summary,Occurrence neighbourhood
+r monthly anomalies vs CHIRPS,WC original,Median r,0.696
+r monthly anomalies vs CHIRPS,TC original,Median r,0.707
+r monthly anomalies vs CHIRPS,WC cleaned,Median r,0.696
+r monthly anomalies vs CHIRPS,TC cleaned,Median r,0.722
+r annual totals vs CHIRPS,WC original,Median r,0.657
+r annual totals vs CHIRPS,TC original,Median r,0.712
+r annual totals vs CHIRPS,WC cleaned,Median r,0.657
+r annual totals vs CHIRPS,TC cleaned,Median r,0.702
+relative bias of mean annual total vs CHIRPS (%),WC original,Median (%),15.18
+relative bias of mean annual total vs CHIRPS (%),TC original,Median (%),24.96
+relative bias of mean annual total vs CHIRPS (%),WC cleaned,Median (%),15.18
+relative bias of mean annual total vs CHIRPS (%),TC cleaned,Median (%),19.77
+relative change 2000-2024 vs 1981-1999 (%),CHIRPS,Median (%),-25.86
+relative change 2000-2024 vs 1981-1999 (%),WC original,Median (%),-21.15
+relative change 2000-2024 vs 1981-1999 (%),TC original,Median (%),-14.82
+relative change 2000-2024 vs 1981-1999 (%),WC cleaned,Median (%),-21.15
+relative change 2000-2024 vs 1981-1999 (%),TC cleaned,Median (%),-13.45
+|relative change - CHIRPS relative change| (pp),WC original,Median (pp),5.13
+|relative change - CHIRPS relative change| (pp),TC original,Median (pp),10.48
+|relative change - CHIRPS relative change| (pp),WC cleaned,Median (pp),5.39
+|relative change - CHIRPS relative change| (pp),TC cleaned,Median (pp),11.42
+wettest quarter agrees with CHIRPS 1981-1999 (%),WC original,Cell mean (%),30.09
+wettest quarter agrees with CHIRPS 1981-1999 (%),TC original,Cell mean (%),32.95
+wettest quarter agrees with CHIRPS 1981-1999 (%),WC cleaned,Cell mean (%),30.09
+wettest quarter agrees with CHIRPS 1981-1999 (%),TC cleaned,Cell mean (%),38.97
+wettest quarter agrees with CHIRPS 2000-2024 (%),WC original,Cell mean (%),28.37
+wettest quarter agrees with CHIRPS 2000-2024 (%),TC original,Cell mean (%),33.52
+wettest quarter agrees with CHIRPS 2000-2024 (%),WC cleaned,Cell mean (%),28.37
+wettest quarter agrees with CHIRPS 2000-2024 (%),TC cleaned,Cell mean (%),30.95
+Jun-Sep share of annual precipitation 2000-2024,CHIRPS,Median (%),0.83
+Jun-Sep share of annual precipitation 2000-2024,WC original,Median (%),24.00
+Jun-Sep share of annual precipitation 2000-2024,TC original,Median (%),24.02
+Jun-Sep share of annual precipitation 2000-2024,WC cleaned,Median (%),24.00
+Jun-Sep share of annual precipitation 2000-2024,TC cleaned,Median (%),22.14
+Jun-Sep share of annual precipitation (WorldClim 2.1 normals),WC2.1 normals 1970-2000,Median (%),19.44

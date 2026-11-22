@@ -1,0 +1,49 @@
+﻿Specification,Baseline,Spatial AUC,OR10 (%),Spatial CBI,Nearby above P10 (%),Nearby n
+Main / specific,WC70,0.730,8.1,0.423,100.0,9
+Main / specific,WC00,0.800,13.1,0.623,100.0,9
+Main / specific,TC70,0.756,8.1,0.482,100.0,9
+Main / specific,TC00,0.824,20.6,0.616,88.9,9
+Main / shared,WC70,0.801,13.1,0.616,100.0,9
+Main / shared,WC00,0.800,13.1,0.623,100.0,9
+Main / shared,TC70,0.810,13.1,0.565,100.0,9
+Main / shared,TC00,0.807,21.1,0.626,100.0,9
+Main / strict,WC70,0.730,8.1,0.423,100.0,9
+Main / strict,WC00,0.729,13.1,0.412,100.0,9
+Main / strict,TC70,0.736,8.1,0.473,100.0,9
+Main / strict,TC00,0.730,21.1,0.496,100.0,9
+Ecoregions / shared,WC70,0.868,13.1,0.545,100.0,9
+Ecoregions / shared,WC00,0.862,15.6,0.738,100.0,9
+Ecoregions / shared,TC70,0.873,13.1,0.543,100.0,9
+Ecoregions / shared,TC00,0.865,15.6,0.619,100.0,9
+100-km buffer / shared,WC70,0.714,13.1,0.525,100.0,9
+100-km buffer / shared,WC00,0.713,15.8,0.487,100.0,9
+100-km buffer / shared,TC70,0.722,10.6,0.551,100.0,9
+100-km buffer / shared,TC00,0.727,18.6,0.588,100.0,9
+National / shared,WC70,0.875,20.8,0.595,100.0,9
+National / shared,WC00,0.866,15.6,0.618,100.0,9
+National / shared,TC70,0.877,18.1,0.570,100.0,9
+National / shared,TC00,0.865,18.3,0.645,100.0,9
+5-km thinning / shared,WC70,0.823,14.3,0.631,100.0,6
+5-km thinning / shared,WC00,0.818,14.1,0.642,100.0,6
+5-km thinning / shared,TC70,0.828,14.3,0.578,100.0,6
+5-km thinning / shared,TC00,0.818,16.4,0.570,100.0,6
+20-km thinning / shared,WC70,0.805,18.8,0.580,100.0,16
+20-km thinning / shared,WC00,0.798,18.8,0.562,100.0,16
+20-km thinning / shared,TC70,0.811,18.8,0.600,100.0,16
+20-km thinning / shared,TC00,0.801,18.8,0.631,100.0,16
+One per cell / shared,WC70,0.824,11.4,0.630,100.0,4
+One per cell / shared,WC00,0.816,15.9,0.667,100.0,4
+One per cell / shared,TC70,0.829,11.4,0.641,100.0,4
+One per cell / shared,TC00,0.817,15.9,0.600,100.0,4
+Original predictors / shared,WC70,0.733,11.1,0.612,100.0,9
+Original predictors / shared,WC00,0.781,13.9,0.419,100.0,9
+Original predictors / shared,TC70,0.765,11.1,0.268,100.0,9
+Original predictors / shared,TC00,0.795,11.1,0.548,100.0,9
+Cleaned precipitation / shared,WC70,0.811,13.1,0.637,100.0,9
+Cleaned precipitation / shared,WC00,0.797,15.6,0.732,100.0,9
+Cleaned precipitation / shared,TC70,0.823,13.1,0.661,100.0,9
+Cleaned precipitation / shared,TC00,0.820,15.6,0.577,100.0,9
+Bias weighted / shared,WC70,0.804,18.1,0.544,100.0,9
+Bias weighted / shared,WC00,0.808,18.1,0.551,100.0,9
+Bias weighted / shared,TC70,0.809,15.6,0.628,100.0,9
+Bias weighted / shared,TC00,0.805,18.1,0.634,100.0,9

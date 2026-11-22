@@ -1,0 +1,9 @@
+﻿Diagnostic covariate,Spearman ρ with future SD,Spearman ρ with present SD
+|product difference| bio5 (mean of periods),0.468,0.132
+|product difference| bio15 (mean of periods),0.319,0.235
+|period change| bio15 (mean of products),0.284,0.096
+|period change| bio12 (mean of products),0.264,-0.017
+|period change| bio6 (mean of products),0.044,-0.161
+|product difference| bio12 (mean of periods),0.004,-0.055
+|product difference| bio6 (mean of periods),-0.420,-0.296
+|period change| bio5 (mean of products),-0.615,-0.435

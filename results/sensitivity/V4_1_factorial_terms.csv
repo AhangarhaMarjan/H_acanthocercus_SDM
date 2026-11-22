@@ -1,0 +1,127 @@
+metric,order,term,percent_total_SS
+P10,1,predictors,5.07659104966961
+P10,1,tuning,1.8226735407722092
+P10,1,product,0.21070131205279982
+P10,1,period,0.01553873319045553
+P10,1,ssp,0.0072706376036528264
+P10,1,gcm,5.2347340081030085
+P10,2,predictors × tuning,4.640042306904847
+P10,2,predictors × product,5.437569502697799
+P10,2,predictors × period,10.427046369344131
+P10,2,predictors × ssp,0.11153419552301849
+P10,2,predictors × gcm,1.8641435366022625
+P10,2,tuning × product,7.196278634590345
+P10,2,tuning × period,16.863154634050826
+P10,2,tuning × ssp,0.04094272609260311
+P10,2,tuning × gcm,0.10268120774225052
+P10,2,product × period,13.148140269753283
+P10,2,product × ssp,0.0844905696925513
+P10,2,product × gcm,0.012099724670788079
+P10,2,period × ssp,0.011079033089113942
+P10,2,period × gcm,0.2683915015690923
+P10,2,ssp × gcm,5.632627051776607
+P10,3,predictors × tuning × product,4.064918589778041
+P10,3,predictors × tuning × period,12.673411722368591
+P10,3,predictors × tuning × ssp,0.03348396418834696
+P10,3,predictors × tuning × gcm,0.183521008225423
+P10,3,predictors × product × period,1.0297812685272598
+P10,3,predictors × product × ssp,0.020292081539721694
+P10,3,predictors × product × gcm,0.06263205708047621
+P10,3,predictors × period × ssp,8.734455906071644e-05
+P10,3,predictors × period × gcm,0.13719720395042814
+P10,3,predictors × ssp × gcm,1.2101433917900244
+P10,3,tuning × product × period,0.04106293903955647
+P10,3,tuning × product × ssp,0.04729134206222089
+P10,3,tuning × product × gcm,0.014355993597497705
+P10,3,tuning × period × ssp,0.058732691910491776
+P10,3,tuning × period × gcm,0.2243707871906908
+P10,3,tuning × ssp × gcm,0.11258503259353414
+P10,3,product × period × ssp,0.0022518513155631113
+P10,3,product × period × gcm,0.0035000721176016722
+P10,3,product × ssp × gcm,0.03642097479882373
+P10,3,period × ssp × gcm,0.38076341146437953
+P10,4,predictors × tuning × product × period,0.5202616698854985
+P10,4,predictors × tuning × product × ssp,0.014945206637339151
+P10,4,predictors × tuning × product × gcm,0.040136926679317106
+P10,4,predictors × tuning × period × ssp,0.07408449669179731
+P10,4,predictors × tuning × period × gcm,0.1253386771672802
+P10,4,predictors × tuning × ssp × gcm,0.23050617529332948
+P10,4,predictors × product × period × ssp,0.0005964721727909689
+P10,4,predictors × product × period × gcm,0.0028127003740047486
+P10,4,predictors × product × ssp × gcm,0.023806310291299305
+P10,4,predictors × period × ssp × gcm,0.08925555469480696
+P10,4,tuning × product × period × ssp,0.0026508570791507202
+P10,4,tuning × product × period × gcm,0.0039018515376578826
+P10,4,tuning × product × ssp × gcm,0.004182876212670251
+P10,4,tuning × period × ssp × gcm,0.16095517581722116
+P10,4,product × period × ssp × gcm,0.011320029940060377
+P10,5,predictors × tuning × product × period × ssp,0.024705913681890648
+P10,5,predictors × tuning × product × period × gcm,0.0036017150641233296
+P10,5,predictors × tuning × product × ssp × gcm,0.01075557188577774
+P10,5,predictors × tuning × period × ssp × gcm,0.0912064259849577
+P10,5,predictors × product × period × ssp × gcm,0.007106362269226853
+P10,5,tuning × product × period × ssp × gcm,0.0012547024231635104
+P10,6,predictors × tuning × product × period × ssp × gcm,0.012080054627681452
+weighted,1,predictors,10.66696287270388
+weighted,1,tuning,5.4530085215412605
+weighted,1,product,0.009464136691924325
+weighted,1,period,16.81167439361403
+weighted,1,ssp,0.010353747153993918
+weighted,1,gcm,0.892784359758296
+weighted,2,predictors × tuning,19.692536444705194
+weighted,2,predictors × product,1.679610052353777
+weighted,2,predictors × period,8.309261292539961
+weighted,2,predictors × ssp,0.0391883398175514
+weighted,2,predictors × gcm,0.28992898905854025
+weighted,2,tuning × product,0.7531442180869999
+weighted,2,tuning × period,27.291219087606965
+weighted,2,tuning × ssp,0.004449609334321173
+weighted,2,tuning × gcm,0.027527978063951335
+weighted,2,product × period,4.330776696858507
+weighted,2,product × ssp,0.005967847641505621
+weighted,2,product × gcm,0.0018966876106203726
+weighted,2,period × ssp,0.00047107184840331775
+weighted,2,period × gcm,0.08562979256466857
+weighted,2,ssp × gcm,0.8227202765732744
+weighted,3,predictors × tuning × product,0.9246761864284307
+weighted,3,predictors × tuning × period,0.7819502771929676
+weighted,3,predictors × tuning × ssp,0.0013087721535662373
+weighted,3,predictors × tuning × gcm,0.05758825620583367
+weighted,3,predictors × product × period,0.3333825148830433
+weighted,3,predictors × product × ssp,0.0007725090817766613
+weighted,3,predictors × product × gcm,0.0020749311663810113
+weighted,3,predictors × period × ssp,0.0010276386444294887
+weighted,3,predictors × period × gcm,0.028856948538080306
+weighted,3,predictors × ssp × gcm,0.16046703759495226
+weighted,3,tuning × product × period,0.24210941827038704
+weighted,3,tuning × product × ssp,0.0033823520140953012
+weighted,3,tuning × product × gcm,0.0019316710469082562
+weighted,3,tuning × period × ssp,0.005366223663573845
+weighted,3,tuning × period × gcm,0.06949915919310222
+weighted,3,tuning × ssp × gcm,0.01374595977547332
+weighted,3,product × period × ssp,0.0018993645744763605
+weighted,3,product × period × gcm,0.000718054671319612
+weighted,3,product × ssp × gcm,0.002460218747327602
+weighted,3,period × ssp × gcm,0.0623735199300978
+weighted,4,predictors × tuning × product × period,0.006179151034826753
+weighted,4,predictors × tuning × product × ssp,0.00033997145832165694
+weighted,4,predictors × tuning × product × gcm,0.001090988377324855
+weighted,4,predictors × tuning × period × ssp,0.009070505078060679
+weighted,4,predictors × tuning × period × gcm,0.01749199106520096
+weighted,4,predictors × tuning × ssp × gcm,0.03680319970231438
+weighted,4,predictors × product × period × ssp,0.00012697910447556111
+weighted,4,predictors × product × period × gcm,0.00243744190336241
+weighted,4,predictors × product × ssp × gcm,0.000828574750324522
+weighted,4,predictors × period × ssp × gcm,0.00799789687393728
+weighted,4,tuning × product × period × ssp,0.00011177376254799583
+weighted,4,tuning × product × period × gcm,0.0005571434602267457
+weighted,4,tuning × product × ssp × gcm,3.494092059431593e-05
+weighted,4,tuning × period × ssp × gcm,0.027668178103134704
+weighted,4,product × period × ssp × gcm,0.00171429140274301
+weighted,5,predictors × tuning × product × period × ssp,0.0004245089973274705
+weighted,5,predictors × tuning × product × period × gcm,0.0005531734935575905
+weighted,5,predictors × tuning × product × ssp × gcm,0.0014507334003778507
+weighted,5,predictors × tuning × period × ssp × gcm,0.007782567960642258
+weighted,5,predictors × product × period × ssp × gcm,0.0021130086485542797
+weighted,5,tuning × product × period × ssp × gcm,0.0001326488773457871
+weighted,6,predictors × tuning × product × period × ssp × gcm,0.0009229017209311992

@@ -1,0 +1,5 @@
+﻿Threshold,Baseline choices (%),Projection choices (%),"Period effect, km² (95% bounds)","Product effect, km² (95% bounds)"
+P10,87.5,12.1,"29,373 (11,535 to 45,290)","8,738 (-2,692 to 17,268)"
+MTP,84.8,14.4,"19,051 (-399 to 35,472)","-4,026 (-14,504 to 4,574)"
+maxSSS,86.9,12.7,"8,156 (-5,310 to 19,701)","23,173 (13,415 to 32,825)"
+Weighted area,76.8,22.5,"14,975 (2,149 to 24,587)","2,786 (-5,720 to 8,957)"

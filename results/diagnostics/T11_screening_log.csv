@@ -1,0 +1,27 @@
+priority_rank,variable,decision,reason
+1,bio6,kept,
+2,bio5,kept,
+3,bio12,kept,
+4,slope,kept,
+5,cfvo,removed,|r| = 0.81 with higher-priority slope
+6,bio4,removed,|r| = 0.92 with higher-priority bio6
+7,bio3,kept,
+8,clay,kept,
+9,bio2,removed,|r| = 0.79 with higher-priority bio6
+10,bio15,kept,
+11,bio14,removed,|r| = 0.87 with higher-priority bio15
+12,bio17,removed,|r| = 0.87 with higher-priority bio15
+13,bio1,removed,|r| = 0.97 with higher-priority bio6
+14,bio11,removed,|r| = 0.99 with higher-priority bio6
+15,bio10,removed,|r| = 0.79 with higher-priority bio6
+16,bio7,removed,|r| = 0.89 with higher-priority bio6
+17,bio13,removed,|r| = 0.88 with higher-priority bio12
+18,bio16,removed,|r| = 0.88 with higher-priority bio12
+19,sand,removed,|r| = 0.73 with higher-priority clay
+20,phh2o,kept,
+21,soc,removed,beyond the cap of 8
+22,bdod,removed,|r| = 0.85 with higher-priority slope
+23,elevation,removed,|r| = 0.92 with higher-priority bio6
+24,vrm,removed,|r| = 0.96 with higher-priority slope
+25,northness,removed,beyond the cap of 8
+26,eastness,removed,beyond the cap of 8

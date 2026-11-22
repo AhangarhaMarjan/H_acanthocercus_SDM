@@ -1,0 +1,5 @@
+set,distance_km,n_records,n_python,min_pairwise_km,clark_evans_R,mean_nn_km
+thin05km,5.0,41,41.0,6.591,1.184,25.499
+thin10km,10.0,38,38.0,10.113,1.243,27.805
+thin20km,20.0,31,31.0,20.502,1.42,35.183
+onepercell,0.0,43,,1.94,1.128,23.731

@@ -1,0 +1,13 @@
+﻿Variant,Mode,Baseline choices %,Projection choices %,Earlier extrap. %,Recent extrap. %,Earlier response,Recent response
+Main,specific,77.9,19.2,44.1,8.5,0.434,0.557
+Main,shared,89.8,9.7,44.1,8.5,0.408,0.573
+Main,strict,77.3,21.4,44.1,8.5,0.430,0.590
+Ecoregions,shared,82.9,16.6,20.2,4.5,0.351,0.565
+100-km buffer,shared,86.4,13.0,60.5,21.7,0.429,0.589
+National,shared,86.6,12.8,11.5,5.4,0.379,0.644
+5-km thinning,shared,87.5,11.8,44.1,8.5,0.379,0.549
+20-km thinning,shared,82.5,16.4,44.1,8.5,0.416,0.596
+One per cell,shared,88.6,11.1,44.1,8.5,0.361,0.531
+Original predictors,shared,69.5,30.0,13.3,2.0,0.807,0.823
+Cleaned precipitation,shared,90.5,9.1,42.4,8.5,0.351,0.540
+Bias weighted,shared,83.4,16.1,46.6,10.9,0.314,0.504

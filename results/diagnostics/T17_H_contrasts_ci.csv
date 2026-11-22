@@ -1,0 +1,109 @@
+threshold,target,contrast,mean_km2,bootstrap_se_km2,ci95_lo,ci95_hi,replicates_positive,n,interval_excludes_zero,interval_method,inference_status,threshold_policy
+p10,present,"period effect (2000-2024 minus 1970-1999, mean of products)",11184.8,3501.2,6218.5,18227.9,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,present,"product effect (TC minus WC, mean of periods)",2169.9,2002.9,-2149.2,5455.3,27,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,present,interaction (period effect TC minus period effect WC),9367.9,3952.0,3006.2,16433.8,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,present,WC_2000_2024 minus WC_1970_1999,6500.9,2373.1,2546.7,10540.7,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,present,TC_1970_1999 minus WC_1970_1999,-2514.1,1226.5,-4568.1,-358.7,1,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,present,TC_2000_2024 minus WC_1970_1999,13354.7,4744.9,6596.4,23160.7,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,present,TC_1970_1999 minus WC_2000_2024,-9015.0,3166.2,-14451.4,-3505.0,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,present,TC_2000_2024 minus WC_2000_2024,6853.8,3785.2,-742.0,13496.5,28,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,present,TC_2000_2024 minus TC_1970_1999,15868.8,5166.6,8246.1,25825.1,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp245,"period effect (2000-2024 minus 1970-1999, mean of products)",26788.7,8255.7,10624.4,40428.7,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp245,"product effect (TC minus WC, mean of periods)",8101.1,4905.0,-2871.7,16126.6,28,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp245,interaction (period effect TC minus period effect WC),-11333.4,9309.3,-22698.4,11306.8,4,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp245,WC_2000_2024 minus WC_1970_1999,32455.4,11084.4,10264.7,49039.4,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp245,TC_1970_1999 minus WC_1970_1999,13767.7,8598.6,-7985.6,26730.1,27,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp245,TC_2000_2024 minus WC_1970_1999,34889.8,12213.6,12506.9,55840.1,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp245,TC_1970_1999 minus WC_2000_2024,-18687.7,5938.0,-28016.7,-7621.2,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp245,TC_2000_2024 minus WC_2000_2024,2434.4,4184.8,-4751.8,10576.6,22,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp245,TC_2000_2024 minus TC_1970_1999,21122.0,7535.3,8835.1,34472.4,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp585,"period effect (2000-2024 minus 1970-1999, mean of products)",29373.2,9366.7,11535.2,45290.1,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp585,"product effect (TC minus WC, mean of periods)",8737.5,5401.1,-2691.7,17268.2,28,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp585,interaction (period effect TC minus period effect WC),-12421.2,10151.1,-25888.3,10821.3,4,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp585,WC_2000_2024 minus WC_1970_1999,35583.8,12415.9,10763.7,53324.9,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp585,TC_1970_1999 minus WC_1970_1999,14948.1,8590.7,-6054.2,27574.0,28,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp585,TC_2000_2024 minus WC_1970_1999,38110.7,13230.6,15017.6,61417.1,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp585,TC_1970_1999 minus WC_2000_2024,-20635.7,7665.9,-33092.1,-6084.1,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp585,TC_2000_2024 minus WC_2000_2024,2526.9,6005.5,-7830.1,13093.0,19,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+p10,ens_ssp585,TC_2000_2024 minus TC_1970_1999,23162.6,8534.5,10043.0,38885.2,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,present,"period effect (2000-2024 minus 1970-1999, mean of products)",8026.6,4987.1,27.3,16969.3,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,present,"product effect (TC minus WC, mean of periods)",-4746.8,2586.9,-9092.3,-482.7,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,present,interaction (period effect TC minus period effect WC),-1417.1,5733.2,-11539.7,7619.1,12,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,present,WC_2000_2024 minus WC_1970_1999,8735.1,3665.3,1721.8,14912.8,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,present,TC_1970_1999 minus WC_1970_1999,-4038.3,1851.8,-6831.3,-524.0,1,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,present,TC_2000_2024 minus WC_1970_1999,3279.7,6232.3,-7052.3,15183.6,21,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,present,TC_1970_1999 minus WC_2000_2024,-12773.4,4927.9,-21296.4,-4687.1,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,present,TC_2000_2024 minus WC_2000_2024,-5455.4,5137.1,-14343.3,2775.2,6,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,present,TC_2000_2024 minus TC_1970_1999,7318.0,7262.4,-4686.1,21646.6,26,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp245,"period effect (2000-2024 minus 1970-1999, mean of products)",17563.1,9232.9,-339.6,31923.8,29,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp245,"product effect (TC minus WC, mean of periods)",-4212.5,5070.1,-12712.0,3039.5,7,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp245,interaction (period effect TC minus period effect WC),-6915.0,10038.3,-26804.7,7653.5,6,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp245,WC_2000_2024 minus WC_1970_1999,21020.6,12427.9,-1086.4,41472.1,28,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp245,TC_1970_1999 minus WC_1970_1999,-755.0,7648.7,-11924.9,14836.2,14,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp245,TC_2000_2024 minus WC_1970_1999,13350.6,12629.8,-11033.9,33795.7,26,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp245,TC_1970_1999 minus WC_2000_2024,-21775.6,7898.9,-35629.6,-8531.8,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp245,TC_2000_2024 minus WC_2000_2024,-7670.0,6579.7,-16454.4,2755.2,4,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp245,TC_2000_2024 minus TC_1970_1999,14105.6,8150.1,1459.9,27350.4,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp585,"period effect (2000-2024 minus 1970-1999, mean of products)",19051.4,10319.6,-399.3,35471.6,28,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp585,"product effect (TC minus WC, mean of periods)",-4026.0,5984.2,-14504.3,4573.8,9,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp585,interaction (period effect TC minus period effect WC),-7844.5,10685.2,-28424.0,6803.0,7,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp585,WC_2000_2024 minus WC_1970_1999,22973.6,13745.1,-757.1,44847.3,29,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp585,TC_1970_1999 minus WC_1970_1999,-103.7,8002.0,-11776.3,17024.9,13,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp585,TC_2000_2024 minus WC_1970_1999,15025.4,13825.3,-9598.2,38270.7,27,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp585,TC_1970_1999 minus WC_2000_2024,-23077.3,9668.0,-39914.5,-7126.3,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp585,TC_2000_2024 minus WC_2000_2024,-7948.2,8042.2,-21011.7,6548.5,4,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+mtp,ens_ssp585,TC_2000_2024 minus TC_1970_1999,15129.1,9008.1,1233.9,29753.5,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,present,"period effect (2000-2024 minus 1970-1999, mean of products)",-5461.8,2290.8,-9658.3,-2793.5,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,present,"product effect (TC minus WC, mean of periods)",16002.3,3389.2,10557.2,20791.3,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,present,interaction (period effect TC minus period effect WC),-8296.4,3027.3,-16899.6,-4441.4,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,present,WC_2000_2024 minus WC_1970_1999,-1313.6,1538.0,-4440.9,818.6,3,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,present,TC_1970_1999 minus WC_1970_1999,20150.5,4080.9,13660.1,27059.6,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,present,TC_2000_2024 minus WC_1970_1999,10540.5,2912.4,5435.6,16279.1,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,present,TC_1970_1999 minus WC_2000_2024,21464.1,4998.7,13588.5,30254.7,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,present,TC_2000_2024 minus WC_2000_2024,11854.1,3301.8,6378.8,17881.9,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,present,TC_2000_2024 minus TC_1970_1999,-9610.0,3565.5,-18152.4,-5629.8,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp245,"period effect (2000-2024 minus 1970-1999, mean of products)",6543.5,5744.0,-4816.8,14950.4,24,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp245,"product effect (TC minus WC, mean of periods)",22451.2,5050.5,13176.8,30600.7,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp245,interaction (period effect TC minus period effect WC),-24434.8,6729.4,-36175.0,-13368.7,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp245,WC_2000_2024 minus WC_1970_1999,18760.9,7915.8,1827.8,30612.3,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp245,TC_1970_1999 minus WC_1970_1999,34668.6,7171.4,21770.7,46879.9,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp245,TC_2000_2024 minus WC_1970_1999,28994.8,9409.3,12374.7,44478.7,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp245,TC_1970_1999 minus WC_2000_2024,15907.7,5335.4,7965.9,26975.9,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp245,TC_2000_2024 minus WC_2000_2024,10233.8,4714.6,3562.7,19518.1,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp245,TC_2000_2024 minus TC_1970_1999,-5673.9,5096.0,-16405.3,2948.3,2,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp585,"period effect (2000-2024 minus 1970-1999, mean of products)",8156.5,6646.9,-5310.2,19700.9,25,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp585,"product effect (TC minus WC, mean of periods)",23172.6,5861.9,13415.2,32825.1,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp585,interaction (period effect TC minus period effect WC),-24625.8,6888.6,-36712.9,-14104.2,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp585,WC_2000_2024 minus WC_1970_1999,20469.4,8665.1,2203.0,33017.6,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp585,TC_1970_1999 minus WC_1970_1999,35485.5,7509.1,23214.9,49483.7,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp585,TC_2000_2024 minus WC_1970_1999,31329.1,10565.4,13043.9,51946.8,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp585,TC_1970_1999 minus WC_2000_2024,15016.1,6742.2,5262.5,27282.7,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp585,TC_2000_2024 minus WC_2000_2024,10859.7,6005.2,1269.9,22398.2,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+maxsss,ens_ssp585,TC_2000_2024 minus TC_1970_1999,-4156.4,6083.1,-17000.2,5979.5,6,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,present,"period effect (2000-2024 minus 1970-1999, mean of products)",3343.9,1683.9,659.2,6404.3,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,present,"product effect (TC minus WC, mean of periods)",-1427.7,1267.5,-3899.3,921.8,3,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,present,interaction (period effect TC minus period effect WC),3719.9,2325.2,-168.5,7816.1,29,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,present,WC_2000_2024 minus WC_1970_1999,1483.9,1191.6,-634.5,3450.2,28,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,present,TC_1970_1999 minus WC_1970_1999,-3287.7,965.8,-4902.0,-1467.3,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,present,TC_2000_2024 minus WC_1970_1999,1916.2,2255.7,-1973.7,7238.0,25,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,present,TC_1970_1999 minus WC_2000_2024,-4771.6,1948.2,-7659.9,-1083.6,1,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,present,TC_2000_2024 minus WC_2000_2024,432.2,2232.4,-3983.5,3927.9,16,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,present,TC_2000_2024 minus TC_1970_1999,5203.8,2637.1,1372.6,10200.4,30,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp245,"period effect (2000-2024 minus 1970-1999, mean of products)",13444.5,5806.1,1788.8,21670.5,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp245,"product effect (TC minus WC, mean of periods)",2420.3,3435.1,-4425.8,7656.6,25,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp245,interaction (period effect TC minus period effect WC),-9184.8,6499.6,-18850.0,5066.3,3,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp245,WC_2000_2024 minus WC_1970_1999,18036.9,8173.3,2.4,28369.6,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp245,TC_1970_1999 minus WC_1970_1999,7012.7,5692.7,-6184.8,15273.2,27,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp245,TC_2000_2024 minus WC_1970_1999,15864.8,8716.6,-2609.5,27698.7,28,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp245,TC_1970_1999 minus WC_2000_2024,-11024.2,3878.5,-16419.6,-3714.7,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp245,TC_2000_2024 minus WC_2000_2024,-2172.1,3509.3,-7853.4,3815.8,7,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp245,TC_2000_2024 minus TC_1970_1999,8852.1,4662.8,365.4,15438.8,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp585,"period effect (2000-2024 minus 1970-1999, mean of products)",14975.1,6439.3,2148.6,24587.4,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp585,"product effect (TC minus WC, mean of periods)",2786.1,3958.3,-5719.7,8957.2,24,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp585,interaction (period effect TC minus period effect WC),-9798.8,6914.8,-19798.0,4729.8,3,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp585,WC_2000_2024 minus WC_1970_1999,19874.5,8834.7,435.8,30671.3,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp585,TC_1970_1999 minus WC_1970_1999,7685.6,5716.0,-5061.5,16292.2,26,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp585,TC_2000_2024 minus WC_1970_1999,17761.2,9377.4,-1199.9,31328.7,29,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp585,TC_1970_1999 minus WC_2000_2024,-12188.9,5131.3,-20018.0,-2836.1,0,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp585,TC_2000_2024 minus WC_2000_2024,-2113.3,4750.9,-10862.8,5196.7,9,30,False,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed
+threshold_free,ens_ssp585,TC_2000_2024 minus TC_1970_1999,10075.6,5365.2,675.7,19003.8,29,30,True,percentile,exploratory_small_bootstrap_ensemble,full_model_fixed

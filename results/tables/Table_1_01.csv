@@ -1,0 +1,11 @@
+﻿Input,Version and temporal coverage,Native support,Use,Reference
+Occurrences,47 available localities; 38 after 10-km thinning,Point records,Common records across all four baselines,This study (37 field localities); Dehghan et al. (2026) (10 localities)
+WorldClim monthly weather,v2.1; CRU-TS 4.09; 1970–2024,2.5 arc-min,Separate 1970–1999 and 2000–2024 climatologies,Fick and Hijmans (2017); Harris et al. (2020)
+TerraClimate monthly climate,v1.1; ERA5-based; 1970–2024,1/24°,Same two climatological periods and derived predictors,Abatzoglou et al. (2018); Climatology Lab (2026)
+WorldClim CMIP6,Five GCMs; SSP2-4.5 and SSP5-8.5; 2041–2060,2.5 arc-min,Product-consistent anomalies anchored to 2000–2024; construction sensitivities,Fick and Hijmans (2017); Eyring et al. (2016); O’Neill et al. (2016)
+CHIRPS precipitation,v3; 1981–2024,0.05°,Precipitation consistency checks; BIO12 input only in the CHIRPS sensitivity analysis (Table S28),Funk et al. (2026); Climate Hazards Center (2025)
+Copernicus DEM,GLO-30,30 m,Elevation and terrain derivatives; aggregated to model grid,European Space Agency (2024)
+SoilGrids,v2.0; depth 0–5 cm,250 m,Soil properties; aggregated to model grid,Poggio et al. (2021)
+RESOLVE Ecoregions,2017,Polygons,Occupied ecoregions used in calibration-area definition,Dinerstein et al. (2017)
+OpenStreetMap / Geofabrik,Iran extract; data to 28 October 2026,Roads and place points,Accessibility diagnostics and bias-weighted background sensitivity,OpenStreetMap contributors (2026)
+GADM / Natural Earth,GADM 4.1; Natural Earth 5.1.1,Administrative polygons,"Domain, province attribution and cartographic context",GADM (2026); Natural Earth (2026)

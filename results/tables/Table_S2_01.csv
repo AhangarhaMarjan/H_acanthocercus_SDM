@@ -1,0 +1,49 @@
+﻿Specification,Baseline,FC,RM,Parameters,P10,MTP,maxSSS
+Main / specific,WC70,LQHP,10.0,3,0.5303,0.4344,0.5302
+Main / specific,WC00,LQHPT,5.0,4,0.4807,0.1386,0.6689
+Main / specific,TC70,LQHP,8.0,3,0.5701,0.3352,0.5701
+Main / specific,TC00,LQ,4.0,6,0.4393,0.0478,0.4393
+Main / shared,WC70,LQHP,5.0,4,0.5154,0.1446,0.6620
+Main / shared,WC00,LQHP,5.0,4,0.4807,0.1386,0.6691
+Main / shared,TC70,LQHP,5.0,3,0.5122,0.1383,0.5122
+Main / shared,TC00,LQHP,5.0,4,0.4518,0.1521,0.5970
+Main / strict,WC70,LQHP,10.0,3,0.5303,0.4344,0.5302
+Main / strict,WC00,LQHP,10.0,3,0.5562,0.4670,0.6475
+Main / strict,TC70,LQHP,10.0,3,0.5397,0.4236,0.5397
+Main / strict,TC00,LQHP,10.0,3,0.5363,0.4807,0.7410
+Ecoregions / shared,WC70,LQHP,4.0,6,0.3761,0.0948,0.3605
+Ecoregions / shared,WC00,LQHP,4.0,4,0.3447,0.1007,0.3124
+Ecoregions / shared,TC70,LQHP,4.0,5,0.3798,0.0906,0.3754
+Ecoregions / shared,TC00,LQHP,4.0,5,0.4112,0.1070,0.3298
+100-km buffer / shared,WC70,LQHP,5.0,3,0.5617,0.2108,0.5617
+100-km buffer / shared,WC00,LQHP,5.0,4,0.5393,0.1944,0.6349
+100-km buffer / shared,TC70,LQHP,5.0,3,0.5677,0.2004,0.5677
+100-km buffer / shared,TC00,LQHP,5.0,6,0.5382,0.2193,0.6411
+National / shared,WC70,LQ,2.5,11,0.5193,0.0920,0.0920
+National / shared,WC00,LQ,2.5,9,0.4785,0.0706,0.2766
+National / shared,TC70,LQ,2.5,10,0.5161,0.0916,0.0916
+National / shared,TC00,LQ,2.5,9,0.5021,0.0740,0.3132
+5-km thinning / shared,WC70,LQHP,5.0,4,0.4688,0.1160,0.6418
+5-km thinning / shared,WC00,LQHP,5.0,4,0.4323,0.1099,0.6243
+5-km thinning / shared,TC70,LQHP,5.0,4,0.4739,0.1105,0.5990
+5-km thinning / shared,TC00,LQHP,5.0,4,0.4089,0.1201,0.5609
+20-km thinning / shared,WC70,LQHPT,3.0,6,0.4895,0.1204,0.4895
+20-km thinning / shared,WC00,LQHPT,3.0,6,0.4587,0.1133,0.4587
+20-km thinning / shared,TC70,LQHPT,3.0,6,0.4907,0.1144,0.4907
+20-km thinning / shared,TC00,LQHPT,3.0,6,0.4726,0.1227,0.4486
+One per cell / shared,WC70,LQHP,5.0,4,0.4533,0.1070,0.6400
+One per cell / shared,WC00,LQHP,5.0,4,0.4217,0.0995,0.6421
+One per cell / shared,TC70,LQHP,5.0,3,0.4551,0.1013,0.5935
+One per cell / shared,TC00,LQHP,5.0,4,0.3848,0.1068,0.5300
+Original predictors / shared,WC70,H,10.0,3,0.6311,0.3651,0.6214
+Original predictors / shared,WC00,H,10.0,3,0.6641,0.3387,0.6507
+Original predictors / shared,TC70,H,10.0,7,0.6340,0.3582,0.6268
+Original predictors / shared,TC00,H,10.0,3,0.6509,0.3118,0.6466
+Cleaned precipitation / shared,WC70,LQHP,4.0,5,0.4792,0.1016,0.6336
+Cleaned precipitation / shared,WC00,LQHP,4.0,5,0.4453,0.0912,0.6307
+Cleaned precipitation / shared,TC70,LQHP,4.0,4,0.4147,0.1074,0.6123
+Cleaned precipitation / shared,TC00,LQHP,4.0,4,0.4038,0.1065,0.5617
+Bias weighted / shared,WC70,LQHP,4.0,4,0.3675,0.1634,0.5309
+Bias weighted / shared,WC00,LQHP,4.0,6,0.3584,0.1648,0.5293
+Bias weighted / shared,TC70,LQHP,4.0,4,0.3720,0.1661,0.4847
+Bias weighted / shared,TC00,LQHP,4.0,5,0.3811,0.1392,0.5004

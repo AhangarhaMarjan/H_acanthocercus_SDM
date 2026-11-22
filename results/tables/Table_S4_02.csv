@@ -1,0 +1,5 @@
+﻿Occurrence set,Nominal distance km,Records,Minimum distance km,Mean nearest neighbour km,Clark–Evans R
+5-km thinning,5,41,6.59,25.50,1.18
+10-km thinning,10,38,10.11,27.80,1.24
+20-km thinning,20,31,20.50,35.18,1.42
+One per cell,0,43,1.94,23.73,1.13

@@ -1,0 +1,13 @@
+﻿Variant,Mode,Min AUC,Max AUC,P10 period contrast km²,Weighted period contrast km²
+Main,specific,0.730,0.824,"-14,996","-34,240"
+Main,shared,0.800,0.810,"36,202","19,580"
+Main,strict,0.729,0.736,"24,754","14,714"
+Ecoregions,shared,0.862,0.873,"22,205","17,032"
+100-km buffer,shared,0.713,0.727,"25,154","11,800"
+National,shared,0.865,0.877,"22,626","17,075"
+5-km thinning,shared,0.818,0.828,"34,225","17,803"
+20-km thinning,shared,0.798,0.811,"27,834","15,400"
+One per cell,shared,0.816,0.829,"30,699","16,394"
+Original predictors,shared,0.733,0.795,"-7,535","-5,030"
+Cleaned precipitation,shared,0.797,0.823,"28,023","17,844"
+Bias weighted,shared,0.804,0.809,"19,518","13,512"

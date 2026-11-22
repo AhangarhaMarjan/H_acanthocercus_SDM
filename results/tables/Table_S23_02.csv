@@ -1,0 +1,15 @@
+﻿Scenario,Comparison,Contrast,Agreement (%),Opposite (%)
+SSP2-4.5,WC70 vs WC00,Period (WorldClim),69.2,0.0
+SSP2-4.5,TC70 vs TC00,Period (TerraClimate),94.7,0.0
+SSP2-4.5,WC70 vs TC70,Product (earlier),86.6,0.0
+SSP2-4.5,WC00 vs TC00,Product (recent),83.4,0.0
+SSP2-4.5,WC70 vs TC00,Period and product,82.7,0.0
+SSP2-4.5,WC00 vs TC70,Period and product,78.5,0.0
+SSP2-4.5,All four baselines,—,67.0,—
+SSP5-8.5,WC70 vs WC00,Period (WorldClim),62.8,0.0
+SSP5-8.5,TC70 vs TC00,Period (TerraClimate),90.5,0.0
+SSP5-8.5,WC70 vs TC70,Product (earlier),82.8,0.0
+SSP5-8.5,WC00 vs TC00,Product (recent),82.1,0.0
+SSP5-8.5,WC70 vs TC00,Period and product,74.8,0.0
+SSP5-8.5,WC00 vs TC70,Period and product,73.6,0.0
+SSP5-8.5,All four baselines,—,59.3,—

@@ -1,0 +1,9 @@
+﻿Predictor,Definition,Unit,WC70,WC00,TC70,TC00
+BIO6,Minimum temperature of coldest month,°C,56.0 ± 6.6,49.4 ± 7.8,57.0 ± 5.9,49.7 ± 6.5
+BIO5,Maximum temperature of warmest month,°C,4.0 ± 3.3,2.0 ± 2.7,4.2 ± 3.2,3.2 ± 3.7
+BIO12,Annual precipitation,mm,11.2 ± 4.4,12.7 ± 5.3,12.5 ± 4.3,9.7 ± 5.4
+slope,Slope,degrees,21.2 ± 6.8,23.6 ± 7.0,19.9 ± 6.5,24.3 ± 6.5
+BIO3,Isothermality,%,7.2 ± 2.9,11.6 ± 5.8,6.2 ± 2.8,12.0 ± 3.6
+clay,Clay content at 0–5 cm,%,0.2 ± 0.6,0.5 ± 1.0,0.2 ± 0.5,0.4 ± 0.9
+BIO15,Precipitation seasonality,"CV, %",0.1 ± 0.3,0.2 ± 0.4,0.0 ± 0.2,0.6 ± 1.8
+phh2o,Soil pH at 0–5 cm,pH units,0.1 ± 0.2,0.0 ± 0.1,0.0 ± 0.1,0.0 ± 0.1

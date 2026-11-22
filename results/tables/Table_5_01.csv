@@ -1,0 +1,9 @@
+﻿Component,Suitability (%),P10 area (%)
+period,10.74,35.57
+product,6.62,3.28
+period:product,3.36,1.55
+GCM,2.99,1.32
+SSP,0.26,0.02
+GCM:SSP,3.32,4.22
+Other interactions,0.34,0.21
+replicate (residual),72.36,53.81
