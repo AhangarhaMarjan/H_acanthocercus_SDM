@@ -33,6 +33,6 @@ The check reconstructs the twelve paired period-contrast summaries from 720 area
 
 Environmental datasets are available from the original providers listed in Table 1 under their own terms. Requests for controlled access to occurrence coordinates and specimen information may be sent to the corresponding author under the authors’ data-use conditions. The public release contains analysis source and derived tables. Full model fitting requires the environmental layers and authorised locality data.
 
-Cite the authors in `CITATION.cff`, the software title, version and the version-specific DOI shown on its Zenodo record. [Zenodo version history](https://doi.org/10.5281/zenodo.21539727) · [Original submission release, v1.0.1](https://doi.org/10.5281/zenodo.21539728).
+Cite the authors in `CITATION.cff`, the software title, version and the version-specific DOI shown on its Zenodo record. [Zenodo version history](https://doi.org/10.5281/zenodo.21539727) · [Original submission release, v1.0.1](https://doi.org/10.5281/zenodo.21539728) · [Revised release, v2.0.0](https://doi.org/10.5281/zenodo.24448818).
 
 The authors' source code is available under the [MIT License](LICENSE). The authors' derived tables and original documentation are available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
